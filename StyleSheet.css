@@ -5,7 +5,7 @@ h1{
 h2{
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
-    text-align: center;
+    margin-left: 10cm;
 }
 .para{
     font-family: 'Sansita', sans-serif;
@@ -16,14 +16,15 @@ h2{
 }
 .last-line{
     font-family: 'Lobster', cursive;
-    text-align: center;
+    margin-left: 10cm;
     font-size: 1.5em;
 }
 footer{
-    text-align: center;
+
+    margin-left: 10cm;
 }
 .plink{
-    color: darkorchid;
+    color: darkseagreen;
     text-decoration: none;
 }
 nav li{
@@ -33,6 +34,11 @@ nav li{
     font-family: 'Sansita', sans-serif;
     font-size: 1.5em;
 
+}
+li a{
+    color: darkslategray;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 ul{
     text-align: right;
@@ -44,5 +50,5 @@ body{
     background-image: url("image/img10.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    
+
 }
